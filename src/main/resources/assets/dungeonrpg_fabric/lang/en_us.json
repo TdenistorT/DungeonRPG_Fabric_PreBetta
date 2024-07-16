@@ -1,0 +1,14 @@
+{
+  "item.dungeonrpg_fabric.terracoin" : "Terra-Coin",
+  "item.dungeonrpg_fabric.blue_star" : "Blue star",
+  "item.dungeonrpg_fabric.green_star" : "Green star",
+  "item.dungeonrpg_fabric.red_star" : "Red star",
+  "item.dungeonrpg_fabric.white_star" : "White star",
+  "item.dungeonrpg_fabric.yellow_star" : "Yellow star",
+  "item.dungeonrpg_fabric.fire_staff" : "Fire staff",
+  "item.dungeonrpg_fabric.lightning_staff" : "Lightning staff",
+  "item.dungeonrpg_fabric.explosive_staff" : "Explosive staff",
+  "item.dungeonrpg_fabric.teleport_staff" : "Telepot staff",
+  "item.dungeonrpg_fabric.fly_staff" : "Fly staff",
+  "entity.minecraft.villager.food_trade_profession" :"Food"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "dungeonrpg_fabric:custom/flystaff",
+  "textures": {
+    "0": "dungeonrpg_fabric:block/flystaff",
+    "particle": "dungeonrpg_fabric:item/lightning_stuff900"
+  }
+}

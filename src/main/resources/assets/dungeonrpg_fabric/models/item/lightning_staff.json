@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonrpg_fabric:custom/posoh_elektro",
+  "textures": {
+    "1": "dungeonrpg_fabric:block/texture_posoh_elektro"
+  }
+}

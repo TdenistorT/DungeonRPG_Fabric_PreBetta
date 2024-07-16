@@ -1,0 +1,14 @@
+{
+  "item.dungeonrpg_fabric.terracoin" : "Терра-коин",
+  "item.dungeonrpg_fabric.blue_star" : "Синяя звезда",
+  "item.dungeonrpg_fabric.green_star" : "Зелёная звезда",
+  "item.dungeonrpg_fabric.red_star" : "Красная звезда",
+  "item.dungeonrpg_fabric.white_star" : "Белая звезда",
+  "item.dungeonrpg_fabric.yellow_star" : "Жёлтая звезда",
+  "item.dungeonrpg_fabric.fire_staff" : "Посох огня",
+  "item.dungeonrpg_fabric.lightning_staff" : "Посох молнии",
+  "item.dungeonrpg_fabric.explosive_staff" : "Посох взрыва",
+  "item.dungeonrpg_fabric.teleport_staff" : "Посох телепортации",
+  "item.dungeonrpg_fabric.fly_staff" : "Посох полёта",
+  "entity.minecraft.villager.food_trade_profession" :"Еда"
+}

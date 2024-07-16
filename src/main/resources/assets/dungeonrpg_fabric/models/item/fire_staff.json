@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonrpg_fabric:custom/firestaff",
+  "textures": {
+    "0": "dungeonrpg_fabric:block/texture_posoh_ogon"
+  }
+}

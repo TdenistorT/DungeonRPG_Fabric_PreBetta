@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dungeonrpg_fabric",
+  "version": "${version}",
+  "name": "DungeonRPG_fabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/computer/DungeonRPG_fabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dungeonrpg_fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.denistor.dungeonrpg.client.DungeonRPG_fabricClient"
+    ],
+    "main": [
+      "net.denistor.dungeonrpg.DungeonRPG_fabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonrpg_fabric:custom/teleportstaff",
+  "textures": {
+    "0": "dungeonrpg_fabric:block/teleportstaff"
+  }
+}
