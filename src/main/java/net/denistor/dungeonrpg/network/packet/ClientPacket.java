@@ -5,7 +5,7 @@ import net.denistor.dungeonrpg.DungeonRPG_fabric;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.util.Identifier;
 
-public class ClientPacket {
+public class ClientPacket {// пакеты из клиентской части мода
     public final Identifier ID;
     public final ServerPlayNetworking.PlayChannelHandler HANDLER;
 

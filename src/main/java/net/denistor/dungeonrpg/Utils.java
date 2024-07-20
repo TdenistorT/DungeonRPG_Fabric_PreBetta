@@ -6,7 +6,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.world.World;
 
-public class Utils {
+public class Utils {//куски кода, которые часто пригождаются
     public static BlockPos getTargetBlock(World world, PlayerEntity player, double maxDistance) {
         // Начальная позиция трассировки
 

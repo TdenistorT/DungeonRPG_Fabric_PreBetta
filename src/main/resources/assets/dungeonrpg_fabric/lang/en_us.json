@@ -9,6 +9,5 @@
   "item.dungeonrpg_fabric.lightning_staff" : "Lightning staff",
   "item.dungeonrpg_fabric.explosive_staff" : "Explosive staff",
   "item.dungeonrpg_fabric.teleport_staff" : "Telepot staff",
-  "item.dungeonrpg_fabric.fly_staff" : "Fly staff",
-  "entity.minecraft.villager.food_trade_profession" :"Food"
+  "item.dungeonrpg_fabric.fly_staff" : "Fly staff"
 }

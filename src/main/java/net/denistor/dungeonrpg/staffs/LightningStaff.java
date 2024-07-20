@@ -19,7 +19,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class LightningStaff extends Item {
+public class LightningStaff extends Item {// посох молнии
     public LightningStaff(Settings settings) {
         super(settings);
     }

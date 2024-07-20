@@ -30,7 +30,7 @@ public class OpMenuScreen extends Screen {
     public ButtonWidget button2;
 
     @Override
-    protected void init() {
+    protected void init() {// меню операторов
         button1 = ButtonWidget.builder(Text.literal("Teleport to TerraFortis world..."), button -> {
                     DungeonRPG_Network.send(DungeonRPG_Network.teleport_to_TerraFortis);
                 })

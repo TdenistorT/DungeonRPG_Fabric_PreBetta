@@ -2,25 +2,18 @@ package net.denistor.dungeonrpg.network;
 
 
 import net.denistor.dungeonrpg.DungeonRPG_fabric;
-import net.denistor.dungeonrpg.init.World.RegisterWorlds;
+import net.denistor.dungeonrpg.Worlds.RegisterWorlds;
 import net.denistor.dungeonrpg.network.packet.ClientPacket;
 
 import net.denistor.dungeonrpg.network.packet.ServerPacket;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.SpawnReason;
-import net.minecraft.entity.mob.BlazeEntity;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.world.World;
 
-import java.util.Random;
-
-public class DungeonRPG_Network {
+public class DungeonRPG_Network {// связь между клиентской части игры и серверной
 
     public static final ClientPacket teleport_to_TerraFortis = registerPacket("teleport_to_terrafortis", (server, player, handler, buf, responseSender) -> {
         ServerWorld terraFortis = server.getWorld(RegisterWorlds.TERRAFORTIS_LEVEL_KEY);
@@ -34,6 +27,8 @@ public class DungeonRPG_Network {
         player.teleport(terraFortis,0,100,0,1f,1f);
 
     });
+
+
 
 
     private static ClientPacket registerPacket(String id, ServerPlayNetworking.PlayChannelHandler handler) {

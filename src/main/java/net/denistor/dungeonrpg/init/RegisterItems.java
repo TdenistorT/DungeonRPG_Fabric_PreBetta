@@ -15,7 +15,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class RegisterItems {
+public class RegisterItems {// регистрация предметов мода
     //Item_groups
     public static final RegistryKey<ItemGroup> currency = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(DungeonRPG_fabric.MODID, "currency_group"));
     public static final RegistryKey<ItemGroup> staffs = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(DungeonRPG_fabric.MODID, "staffs_group"));
@@ -48,7 +48,7 @@ public class RegisterItems {
 
     public static void register() {
         Registry.register(Registries.ITEM_GROUP, currency, FabricItemGroup.builder()
-                .displayName(Text.translatable("currency"))
+                .displayName(Text.translatable("Ценная валюта"))
                 .icon(() -> new ItemStack(RegisterItems.terracoin))
                 .entries((context, entries) ->{
                     entries.add(new ItemStack(terracoin));

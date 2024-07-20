@@ -9,6 +9,5 @@
   "item.dungeonrpg_fabric.lightning_staff" : "Посох молнии",
   "item.dungeonrpg_fabric.explosive_staff" : "Посох взрыва",
   "item.dungeonrpg_fabric.teleport_staff" : "Посох телепортации",
-  "item.dungeonrpg_fabric.fly_staff" : "Посох полёта",
-  "entity.minecraft.villager.food_trade_profession" :"Еда"
+  "item.dungeonrpg_fabric.fly_staff" : "Посох полёта"
 }

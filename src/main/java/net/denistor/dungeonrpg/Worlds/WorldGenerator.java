@@ -1,4 +1,4 @@
-package net.denistor.dungeonrpg.init.World;
+package net.denistor.dungeonrpg.Worlds;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
@@ -7,7 +7,7 @@ import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
 
-public class WorldGenerator extends FabricDynamicRegistryProvider {
+public class WorldGenerator extends FabricDynamicRegistryProvider {// генераторы миров
 
     public WorldGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);

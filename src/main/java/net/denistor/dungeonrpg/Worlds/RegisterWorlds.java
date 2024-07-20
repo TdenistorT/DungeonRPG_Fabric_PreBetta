@@ -1,4 +1,4 @@
-package net.denistor.dungeonrpg.init.World;
+package net.denistor.dungeonrpg.Worlds;
 
 
 import net.denistor.dungeonrpg.DungeonRPG_fabric;
@@ -13,7 +13,7 @@ import net.minecraft.world.dimension.DimensionTypes;
 
 import java.util.OptionalLong;
 
-public class RegisterWorlds {
+public class RegisterWorlds {// регистрация миров
 
         public static final RegistryKey<DimensionOptions> TERRAFORTIS_KEY = RegistryKey.of(RegistryKeys.DIMENSION,
                 new Identifier(DungeonRPG_fabric.MODID, "terrafortis"));

@@ -12,7 +12,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class TeleportStaff extends Item {
+public class TeleportStaff extends Item {// посох телепортации
     public TeleportStaff(Settings settings) {
         super(settings);
     }

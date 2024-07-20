@@ -17,7 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class FireStaff extends Item {
+public class FireStaff extends Item {// посох огня
     public FireStaff(Settings settings) {
         super(settings);
     }

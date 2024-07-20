@@ -12,7 +12,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class ExplosiveStaff extends Item {
+public class ExplosiveStaff extends Item {// взрывной посох
     public ExplosiveStaff(Settings settings) {
         super(settings);
     }

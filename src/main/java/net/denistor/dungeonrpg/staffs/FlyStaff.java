@@ -14,7 +14,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class FlyStaff extends Item {
+public class FlyStaff extends Item {// посох полёта
     public FlyStaff(Settings settings) {
         super(settings);
     }
